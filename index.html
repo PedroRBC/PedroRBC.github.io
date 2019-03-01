@@ -2,31 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Asirt</title>
+  <meta charset="UTF-8">
+  <title>Asirt</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleScroll.css">
 
 </head>
 
 <body>
+  <ul>
+    <li><a style="cursor: pointer;" onclick="ScrollClick('home')">Home</a></li>
+    <li><a style="cursor: pointer;" onclick="ScrollClick('steam')">Steam</a></li>
+    <li><a href="https://github.com/Asirt" target="_blank">Github</a></li>
+  </ul>
 
-    <div class="panel" data-color="grey">
-        <a href=>asirt</a>
-
+  <div class="panel" data-color="grey" id="home">
+    <div class="fancy">
+      <a href="" id="fancy">asirt</a>
     </div>
-
-    <div class="panel" data-color="red2">
-        <div class="wrapper">
-            <h1><a href="https://steamcommunity.com/id/Asirt/">Steam</a></h1>
-        </div>
+    <div class="scroll-downs" style="cursor: pointer;" onclick="ScrollClick('steam')">
+      <div class="mousey">
+        <div class="scroller">></div>
+      </div>
     </div>
+  </div>
 
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-    <script src="js/index.js"></script>
+
+
+  <div class="panel" data-color="red2" id="steam">
+    <div class="wrapper">
+      <h1><a href="https://steamcommunity.com/id/Asirt/">Steam</a></h1>
+    </div>
+  </div>
+
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="js/index.js"></script>
+
 </body>
 
 </html>
