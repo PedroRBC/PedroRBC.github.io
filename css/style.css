@@ -1,47 +1,3 @@
-body {
-  background: #212121;
-  transition: background-color 1s ease;
-  font-family: 'Roboto', sans-serif;
-}
-
-ul {
-  z-index: 8;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: center;
-}
-
-li {
-  text-align: center;
-  display: inline-block;
-  margin: 5px;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: 2px solid white;
-}
-
-.color-grey li a:hover {
-  color: #FF2255;
-  border-color: #FF2255;
-}
-
-.color-red2 li a:hover {
-  color: black;
-  border-color: black;
-}
-
 .fancy a {
   font-weight: bold;
   text-transform: uppercase;
@@ -54,28 +10,6 @@ li a {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   letter-spacing: .15em;
-}
-
-.panel {
-  /* min height incase content is higher than window height */
-  min-height: 100vh;
-  display: flex;
-  /*justify-content: space-around;
-     */
-  align-items: center;
-  /*font-family: sans-serif;
-     */
-  /* outline: 10px solid hotpink;
-     */
-  /* turn above on to see the edge of panels */
-}
-
-.color-grey {
-  background-color: #212121;
-}
-
-.color-red2 {
-  background-color: #FF2255;
 }
 
 body .wrapper {

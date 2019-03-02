@@ -1,8 +1,23 @@
-body, html {
-  width: 100%;
-  min-height: 100%;
-  padding: 0;
-  margin: 0;
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  /*justify-content: space-around;
+     */
+  align-items: center;
+  /*font-family: sans-serif;
+     */
+  /* outline: 10px solid hotpink;
+     */
+  /* turn above on to see the edge of panels */
+}
+
+.color-grey {
+  background-color: #212121;
+}
+
+.color-red2 {
+  background-color: #FF2255;
 }
 
 .scroll-downs {
