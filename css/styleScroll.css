@@ -1,23 +1,26 @@
-.panel {
+section {
   /* min height incase content is higher than window height */
   min-height: 100vh;
   display: flex;
-  /*justify-content: space-around;
-     */
   align-items: center;
-  /*font-family: sans-serif;
-     */
-  /* outline: 10px solid hotpink;
-     */
-  /* turn above on to see the edge of panels */
 }
 
 .color-grey {
   background-color: #212121;
 }
 
-.color-red2 {
+.color-red {
   background-color: #FF2255;
+}
+
+.color-grey #grey5{
+  color: #FF2255;
+  border-color: #FF2255;
+}
+
+.color-red #red5{
+  color: black;
+  border-color: black;
 }
 
 .scroll-downs {

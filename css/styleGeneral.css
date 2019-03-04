@@ -34,9 +34,10 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   border: 2px solid white;
+  transition: color 0.25s ease, border-color 0.25s ease;
 }
 
-:not(.color-grey, .color-red2) li a:hover {
+:not(.color-grey, .color-red) li a:hover {
   color: #FF2255;
   border-color: #FF2255;
 }
@@ -46,7 +47,7 @@ li a {
   border-color: #FF2255;
 }
 
-.color-red2 li a:hover {
+.color-red li a:hover {
   color: black;
   border-color: black;
 }
